@@ -37,17 +37,17 @@
 }
 .icon-copyright:before {
 	content: "\e603";
-	font-size 3rem
+	font-size 2rem
 	color #FE3338
 }
 .icon-mail:before {
 	content: "\e604";
-	font-size 3rem
+	font-size 2rem
 	color #FE3338
 }
 .icon-mobile:before {
 	content: "\e605";
-	font-size 3rem
+	font-size 2rem
 	color #FE3338
 }
 .icon-habilidades:before {
@@ -305,3 +305,98 @@ ul
 	margin auto
 .img_imagenes
 	width 100%
+	
+//responsive
+
+@media screen and (max-width: 1149px)
+
+	.izquierda
+		width 450px
+	.radius
+		width 120px
+		height 120px
+	.palabras
+		font-size 0.8rem
+		left 0.9rem
+	.icon-download:before
+		left 2.4rem
+		bottom 3rem
+	.descarga
+		top 5rem
+	#resumen
+		width 100%
+
+		
+@media screen and (max-width: 1032px)
+
+		.izquierda
+			width 420px
+		.foto
+			width 220px
+		.derecha
+			width 300px
+@media screen and (max-width: 869px)
+
+		.izquierda
+			display block
+			margin 0 auto
+			margin-top -5rem
+			width 100%
+			
+			
+		.circulo2, .circulo3
+			display none
+		#hola , #bit
+			text-align center
+		.circulo_desc
+			margin-left 8rem
+			border-radius 0
+			width 200px
+			height 50px
+		.icon-download:before
+			position static
+		.descarga
+			position static
+			font-size 1.2rem
+		.foto
+			width 320px
+		.derecha
+			margin-left 8rem
+
+		.inline_porta
+			display block
+			width 80%
+		.portafolio_div
+			padding-bottom 1rem
+		.cont_pie
+			display block
+			width 100%
+		footer
+			height 250px
+@media screen and (max-width: 668px)
+
+	.derecha
+		margin-left 2rem
+	.subtitulo
+		font-size 0.7rem
+		
+@media screen and (max-width: 668px)
+
+		.derecha
+			margin-left 0rem
+		.pie
+			display block
+			
+@media screen and (max-width: 483px)
+
+		.derecha
+			margin-left 0rem
+		#subtitulo
+			font-size 0.5rem
+			margin-left 0
+		.foto
+			width 80%
+		.circulo1
+			margin-left 1rem
+		.circulo_desc
+			margin-left 3rem
